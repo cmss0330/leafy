@@ -6,3 +6,5 @@ envsubst '${BACKEND_HOST} ${BACKEND_PORT}' < /etc/nginx/conf.d/default.conf.temp
 
 # 다음 명령어를 실행
 exec "$@"
+
+#"nginx-deamon -g -off가 여기 내용으로 들어갈 것 !"
